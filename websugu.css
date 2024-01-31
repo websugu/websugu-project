@@ -219,13 +219,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 .make h1{
     font-family: 'Montserrat', sans-serif;
     color:white;
     font-size: 45px;
     padding-bottom: 25px;
-    
+    padding-top: 50px;
 }
 .ssl p{
     display: inline;
@@ -311,6 +312,53 @@ header{
 /* SERVICES END HERE */
 
 /* <!-- HEADER END HERE --> */
+/* DOMAIN START HERE */
+.container_search {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+.input-container {
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 550px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 18px;
+    position: relative;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #dd8441;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left:  58.40%;
+    top: 183.78%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+#domain {
+    margin-top: 20px;
+}
+.available {
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+}
+.not-available {
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+    color: red;
+}
+/* DOMAIN END HERE */
 @media only screen and (max-width: 900px) {
    
 
@@ -510,4 +558,30 @@ hr{
     width: 90%;
 }
 /* <!-- HEADER END HERE --> */
+
+/* DOMAIN STAT HERE */
+input[type="text"] {
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 14px;
+    position: relative;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #dd8441;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left:  59.47%;
+    top: 208.70%;
+    height: 38px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+/* DOMAIN END HERE */
 }
