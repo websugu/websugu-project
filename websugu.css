@@ -219,13 +219,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    padding-top: 50px;
 }
 .make h1{
     font-family: 'Montserrat', sans-serif;
     color:white;
     font-size: 45px;
     padding-bottom: 25px;
+    
 }
 .ssl p{
     display: inline;
