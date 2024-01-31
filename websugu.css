@@ -213,18 +213,20 @@ header{
     background-image: url(images/Untitled\ design.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 }
 .contenair{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 .make h1{
     font-family: 'Montserrat', sans-serif;
     color:white;
     font-size: 45px;
     padding-bottom: 25px;
+    padding-top: 50px;
 }
 .ssl p{
     display: inline;
@@ -247,7 +249,7 @@ header{
    
 }
 .head-get-started button{
-    margin-top: 60px;
+    margin-top: 40px;
     padding: 15px 70px 15px 70px;
     font-size: 18px;
     font-weight: 600;
@@ -261,6 +263,54 @@ header{
     opacity: 0.80;
     box-shadow: 5px 5px 5px 5px  rgba(0,0,0,.20);
 }
+
+/* timer start here */
+.timer {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 10px;
+}
+/* timer end here */
+
+/* SERVICES START HERE */
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service {
+    width: 330px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.service:hover {
+    transform: translateY(-5px);
+}
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;color: chocolate;
+    font-weight: 500;
+}
+.service p {
+    color: #666;
+}
+/* SERVICES END HERE */
+
 /* <!-- HEADER END HERE --> */
 @media only screen and (max-width: 900px) {
    
@@ -279,7 +329,7 @@ header{
     }
 
     .logo{
-        width: 33%;
+        width: 35%;
         margin-left: 10px;
     }
 
@@ -437,7 +487,7 @@ hr{
 .code h4{
     margin: auto;
     font-weight: 500;
-    padding: 9px 5px 9px 5px;
+    padding: 64x 5px 6px 4px;
     width: 190px;
     border-radius: 2px;
     padding-left: 9px;
