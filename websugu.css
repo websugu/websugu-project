@@ -539,10 +539,10 @@ hr{
 .code h4{
     margin: auto;
     font-weight: 500;
-    padding:6px 2px 6px 2px;
-    width: 180px;
+   padding:6px 0px 6px 0px;
+    width: 190px;
     border-radius: 2px;
-    padding-left: 5px;
+    padding-left: 3px;
 }
 .head-get-started button{
     margin-top: 55px;
