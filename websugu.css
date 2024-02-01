@@ -265,7 +265,9 @@ header{
     opacity: 0.80;
     box-shadow: 5px 5px 5px 5px  rgba(0,0,0,.20);
 }
-
+.off{
+    display: none;
+}
 /* timer start here */
 .timer {
     font-size: 36px;
@@ -486,8 +488,8 @@ header{
 
       .login-btn{
         padding: 10px 25px 10px 25px;
-        font-weight: 600;
-        color: white;display: block;margin-left: 48px;
+        font-weight: 500;
+        color: white;display: block;margin-left: 60px;
         border-radius: 20px;
       }
 
@@ -515,34 +517,39 @@ header{
     background-image: url(images/Untitled\ design.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 142vh;
+    height: 125vh;
 }
 .contenair{
     display:block;
     text-align: center;
 }
 .make h1{
-    padding-top: 35px;
+    padding-top: 40px;
     font-size: 30px;
 }
 .ssl p{
     font-size: 15px;
 }
 .head-price{
-    margin-top: 30px;
-    font-size: 30px;color: white;
-    margin-bottom: 30px;
+    display: none;
 }
+
 hr{
     display: none;
 }
 .code h4{
     margin: auto;
     font-weight: 500;
-   padding:6px 0px 6px 0px;
+    padding:6px 0px 6px 0px;
     width: 190px;
     border-radius: 2px;
     padding-left: 3px;
+}
+.off{
+    display: block;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 30px;
 }
 .head-get-started button{
     margin-top: 55px;
@@ -564,12 +571,12 @@ hr{
     padding-top: 30px;
 }
 /* <!-- HEADER END HERE --> */
+
 /* SOLUTION START HERE */
 .solution button{
     padding: 10px 35px;
-    font-weight: 400;
+    font-weight: 600;
     border: none;
     color: #221f1f;
 }
-
 }
