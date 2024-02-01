@@ -46,7 +46,7 @@ body{
     color: var(--text-color);
 }
 .logo{
-    width: 12%;
+    width: 13%;
     cursor:pointer;
     margin-left: 30px;
 }
@@ -214,6 +214,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
+    padding-top: 50px;
 }
 .contenair{
     display: flex;
@@ -249,7 +250,7 @@ header{
    
 }
 .head-get-started button{
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 15px 70px 15px 70px;
     font-size: 18px;
     font-weight: 600;
@@ -282,7 +283,7 @@ header{
 .container h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .services {
     display: flex;
@@ -290,9 +291,9 @@ header{
     justify-content: center;
 }
 .service {
-    width: 330px;
-    margin: 20px;
-    padding: 20px;
+    width: 350px;
+    margin: 10px;
+    padding: 30px 30px 30px 30px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -312,53 +313,7 @@ header{
 /* SERVICES END HERE */
 
 /* <!-- HEADER END HERE --> */
-/* DOMAIN START HERE */
-.container_search {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
-}
-.input-container {
-    margin-bottom: 20px;
-}
-input[type="text"] {
-    padding: 10px;
-    width: 550px;
-    height: 60px;
-    border-radius: 50px;
-    margin-right: 10px;
-    font-size: 18px;
-    position: relative;
-}
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #dd8441;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    position: absolute;
-    left:  58.40%;
-    top: 183.78%;
-    height: 50px;
-    border-radius: 50px;
-    font-size: 16px;
-}
-#domain {
-    margin-top: 20px;
-}
-.available {
-    color: green;
-    font-weight: 600;
-    font-size: 18px;
-}
-.not-available {
-    color: green;
-    font-weight: 600;
-    font-size: 18px;
-    color: red;
-}
-/* DOMAIN END HERE */
+
 @media only screen and (max-width: 900px) {
    
 
@@ -534,7 +489,7 @@ hr{
 .code h4{
     margin: auto;
     font-weight: 500;
-    padding: 64x 5px 6px 4px;
+    padding:6px 3px 6px 3px;
     width: 190px;
     border-radius: 2px;
     padding-left: 9px;
@@ -559,29 +514,5 @@ hr{
 }
 /* <!-- HEADER END HERE --> */
 
-/* DOMAIN STAT HERE */
-input[type="text"] {
-    padding: 10px;
-    width: 350px;
-    height: 50px;
-    border-radius: 50px;
-    margin-right: 10px;
-    font-size: 14px;
-    position: relative;
-}
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #dd8441;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    position: absolute;
-    left:  59.47%;
-    top: 208.70%;
-    height: 38px;
-    border-radius: 50px;
-    font-size: 14px;
-}
-/* DOMAIN END HERE */
+
 }
