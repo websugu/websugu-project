@@ -40,5 +40,13 @@ setInterval(updateTimer, 1000);
 
 // Initial call to update the timer
 updateTimer();
-
+// SOLUTION START HERE
+function showDetails(solutionId) {
+    var detailsDiv = document.getElementById(solutionId + 'Details');
+    if (detailsDiv.style.display === 'none') {
+        detailsDiv.style.display = 'block';
+    } else {
+        detailsDiv.style.display = 'none';
+    }
+}
 
