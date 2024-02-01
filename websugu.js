@@ -41,19 +41,4 @@ setInterval(updateTimer, 1000);
 // Initial call to update the timer
 updateTimer();
 
-// DOMAINE START HERE
-function checkAvailability() {
-    var domainInput = document.getElementById('domainInput').value.trim();
-    var domainDisplay = document.getElementById('domain');
-    var available = Math.random() < 0.5; // Randomly simulate availability (for demonstration)
 
-    if (domainInput === "") {
-        domainDisplay.innerHTML = "Entrez un nom de votre entreprise";
-    } else {
-        if (available) {
-            domainDisplay.innerHTML = "Le nom <span class='available'>" + domainInput + "</span> est disponible en ligne.";
-        } else {
-            domainDisplay.innerHTML = "Le nom <span class='not-available'>" + domainInput + "</span> est deja utilulisez en ligne";
-        }
-    }
-}
