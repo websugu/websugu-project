@@ -364,6 +364,80 @@ header{
     width: 90%;
 }
 /*<!--  SOLUTION END HERE -->*/
+
+/* FOOTER START HERE */
+.container_footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .footer_form h3{
+    font-size: 24px;
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .footer_form input{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+  }
+  .footer_form button{
+    background-color: #c25421;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+    width: 300px;
+    height: 43px;
+    font-size: 17px;
+    border-radius: 2px;
+  }
+  .footer_form button:hover{
+    opacity: 0.80;
+  }
+  .footer_containt h2{
+    font-size: 28px;
+    color: rgb(244, 244, 244);
+    font-weight: 700;
+  }
+  .footer_containt ul li{
+    padding-top: 20px;
+  }
+  .footer_containt ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: all 0.6s;
+  }
+  .footer_containt ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  .footer{
+    background-image: linear-gradient(to bottom right, rgb(191, 86, 12) , rgb(225, 181, 131),rgb(191, 86, 12));
+    padding: 30px 0px 30px 0px;
+    margin-top: 100px;
+  }
+  .footer_form h4{
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  .owner{
+    text-align: center;
+    color: rgb(34, 32, 32);
+    padding-top: 50px;
+    font-weight: 400;
+  }
+/* FOOTER END HERE */
 @media only screen and (max-width: 900px) {
    
 
@@ -572,4 +646,87 @@ hr{
     border: none;
     color: #221f1f;
 }
+
+
+/* FOOTER START HERE */
+.container_footer{
+    display: block;
+    flex-wrap: wrap;
+    
+  }
+  .footer_form{
+    text-align: center;
+  }
+  .footer_form h3{
+    font-size: 24px;
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .footer_form input{
+    width: 350px;
+    height: 50px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+  }
+  .footer_form button{
+    background-color: #c25421;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+    width: 350px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 2px;
+  }
+  .footer_form button:hover{
+    opacity: 0.80;
+  }
+  .footer_containt{
+    margin-left: 30px;
+  }
+  .footer_containt h2{
+    margin-top: 30px;
+    font-size: 28px;
+    color: rgb(244, 244, 244);
+    font-weight: 700;
+  }
+  .footer_containt ul li{
+    padding-top: 20px;
+  }
+  .footer_containt ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: all 0.6s;
+  }
+  .footer_containt ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  .footer{
+    background-image: linear-gradient(to bottom right, rgb(191, 86, 12) , rgb(225, 181, 131),rgb(191, 86, 12));
+    padding: 30px 0px 30px 0px;
+    margin-top: 100px;
+  }
+  .footer_form h4{
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  .footer_form i{
+    font-size: 18px;
+  }
+  .owner{
+    text-align: center;
+    color: rgb(34, 32, 32);
+    padding-top: 50px;
+    font-weight: 400;
+  }
+/* FOOTER END HERE */
 }
