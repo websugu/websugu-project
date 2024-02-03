@@ -81,7 +81,7 @@ function selectPlan(button) {
       <h3 style="font-weight: 400;">Prix : ${planPrice}</h3>
       <h3 style="font-weight: 400;">Nom Domaine : 1499  FCFA</h3><hr>
       <h3 style="text-decoration: line-through;color: rgb(199, 17, 17);font-weight: 500;"> ${overPrice}<h3>
-      <h3 style="font-size:20px;font-weight: 600;">${totalPrice}</h3> 
+      <h3 style="font-size:22px;font-weight: 600;">${totalPrice}</h3> 
     `;
   }
 
