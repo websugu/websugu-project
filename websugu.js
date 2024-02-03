@@ -64,10 +64,10 @@ function selectPlan(button) {
     });
 
     plans.forEach(plan => {
-      plan.querySelector('button').innerText = "Sélectionner";
+      plan.querySelector('button').innerText = "Choisir";
     });
 
-    button.innerText = "choisie";
+    button.innerText = "Ajoutée";
     button.previousElementSibling.checked = true;
 
     // Update checkout details
