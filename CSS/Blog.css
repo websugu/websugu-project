@@ -75,12 +75,35 @@
   }
   @media only screen and (max-width: 800px) {
     .faq-container {
-        max-width: 400px;
+        max-width: 340px;
         margin: 0 auto;
       }
       .faq-container h1{
-        padding-left: 0px;
+        padding-left: 17px;
         font-weight: 400;
+        font-size: 28px;
         padding-bottom: 20px;
+      }
+
+      .question {
+        cursor: pointer;
+        font-weight: bold;
+        padding: 15px;
+        background-color: #d5d4d4;
+        margin-top: 20px;
+        
+      }
+      
+      .answer {
+        max-height: 0;
+        overflow: hidden;
+        padding-top: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        transition: max-height 0.3s ease-out;
+        color: #3c3c3c;
+      }
+      .content p{
+        font-size: 16px;
       }
   }
