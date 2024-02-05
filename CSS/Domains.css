@@ -1,0 +1,80 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(209, 207, 207);
+    font-size: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse:collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.126);
+  }
+  
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-size: 19px;
+  }
+  
+  th {
+    background-color: #ebeae8;
+    font-size: 20px;
+   
+  }
+  td{
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .categories button{
+    background-color: #c8704b;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-color: rgb(83, 81, 81);
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+  }
+  .categories button:hover{
+    background-color: #0057b300;
+      border-width:  1px;
+      border-style: solid;
+      border-color: black;
+      color: #c25421;
+  }
+  td span{
+    color: #c25421;
+  } 
+  .price{
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media only screen and (max-width: 400px) {
+    
+  }
