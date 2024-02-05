@@ -89,6 +89,6 @@ function selectPlan(button) {
     const checkoutBtn = document.querySelector('.checkout button');
     checkoutBtn.innerText = 'Chargement...';
     setTimeout(function() {
-      window.location.href = 'https://www.google.com';
+      window.location.href = 'Login.html';
     }, 2000); // Redirect after 2 seconds
   }
