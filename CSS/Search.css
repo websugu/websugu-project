@@ -152,6 +152,7 @@ a{
   cursor: pointer;
 }
   .container {
+  text-align: center;
   max-width: auto;
   margin: 0px auto;
   padding: 20px;
@@ -161,6 +162,7 @@ a{
 }
 .input-container input[type="text"] {
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .input-container {
@@ -174,6 +176,7 @@ a{
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 17px;
+
 }
 
 .plan-card button {
@@ -184,6 +187,8 @@ a{
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
+  margin: auto;
+  
 }
 
 
