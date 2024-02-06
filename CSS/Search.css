@@ -160,6 +160,16 @@ a{
 }
 .input-container input[type="text"] {
   font-size: 14px;
+  height: 40px;
+}
+.plan-card button {
+  height: 38px;
+  padding: 10px 15px;
+  border: 1px solid black;
+  background-color: #c4581000;
+  color: #c14f15;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
