@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Example</title>
+  <link rel="stylesheet" href="CSS/Sign-up.css">
+</head>
+<body>
+
+
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <a href="home.html"><span class="close" id="closePopup">Retour</span></a>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-065593b9-5037-449b-93e7-75e459754aee" data-elfsight-app-lazy></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+	const openPopupBtn = document.getElementById('openPopup');
+const closePopupBtn = document.getElementById('closePopup');
+const popup = document.getElementById('popup');
+
+openPopupBtn.addEventListener('click', function() {
+  popup.style.display = 'block';
+});
+
+closePopupBtn.addEventListener('click', function() {
+  popup.style.display = 'none';
+});
+
+</script>
+
+</body>
+</html>
