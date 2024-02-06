@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="CSS/Search.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domain Name Generator</title>
+
+</head>
+<body>
+  <div class="head">
+  <a href="home.html"><button class="Retour"><i class="fa-solid fa-arrow-left" style="color: #2f3032;"></i></button></a>
+  <h1 class="achat"><span span style="color: chocolate;">01|</span> Recherche de domaine – Achetez un domaine en minutes</h1>
+</div>
+<div class="container">
+  <div class="input-container">
+    <input type="text" id="searchInput" placeholder="Entrez le nom de votre entreprise...">
+    <button id="searchBtn">vérifier</button>
+    
+  </div>
+  <div class="loader" id="loader"></div>
+  <a href="Sign-up.html"><div class="plans-container" id="plansContainer"></div></a>
+</div>
+<h1 class="choses"><span style="color: chocolate;font-size: 18px;">02|</span> Choses à retenir avant d'acheter des domaines</h1>
+  <div class="features-container">
+    
+    <div class="feature">
+      <img src="images/vector img/Mobile-bro.png" alt="Feature 1">
+      <h2>Feature 1</h2>
+      <p>Bien qu’il n’y ait pas de longueur minimale pour l’enregistrement d’un domaine, nous vous recommandons d’acheter un nom de domaine de moins de trois mots. Les noms de sites Web plus longs sont plus difficiles à lire et ne se démarqueront pas.</p>
+    </div>
+    <div class="feature">
+      <img src="images/vector img/Connected world-amico.png" alt="Feature 2">
+      <h2>Feature 2</h2>
+      <p>Les meilleurs noms de sites Web sont rapidement choisis. Ne manquez pas le parfait : effectuez une recherche de domaine et achetez des noms de domaine pour démarrer vos projets en ligne dès aujourd'hui.</p>
+    </div>
+    <div class="feature">
+      <img src="images/vector img/Online world-bro.png" alt="Feature 3">
+      <h2>Feature 3</h2>
+      <p>A great address for your website should include your brand or the target keywords for your niche. A search result with a keyword in your site URL will offer better brand recognition and increase your website’s traffic.</p>
+    </div>
+  </div>
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const searchBtn = document.getElementById('searchBtn');
+  const loader = document.getElementById('loader');
+  const plansContainer = document.getElementById('plansContainer');
+
+  searchBtn.addEventListener('click', function() {
+    const domainName = searchInput.value.trim();
+
+    if (domainName !== '') {
+      loader.style.display = 'block';
+      plansContainer.innerHTML = ''; // Clear previous results
+
+      // Simulating API call with setTimeout
+      setTimeout(() => {
+        const domains = generateDomains(domainName);
+        displayDomains(domains);
+        loader.style.display = 'none';
+      }, 1500); // Simulating a delay of 1.5 seconds
+    }
+  });
+
+  function generateDomains(name) {
+    const extensions = ['.com', '.net', '.ml', '.store', '.org', '.biz'];
+    const domains = extensions.map(ext => name + ext);
+    return domains;
+  }
+
+  function displayDomains(domains) {
+    domains.forEach(domain => {
+      const card = document.createElement('div');
+      card.classList.add('plan-card');
+      const title = document.createElement('h3');
+      title.textContent = domain;
+      const price = document.createElement('p');
+      price.textContent = '25.000F'; // You can set dynamic prices here
+      const button = document.createElement('button');
+      button.textContent = 'Acheter';
+      
+      card.appendChild(title);
+      card.appendChild(price);
+      card.appendChild(button);
+      plansContainer.appendChild(card);
+    });
+  }
+</script>
+
+</body>
+</html>
