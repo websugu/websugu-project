@@ -160,17 +160,30 @@ a{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .input-container input[type="text"] {
-  font-size: 14px;
-  height: 40px;
+  font-size: 15px;
 }
+
+.input-container {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
 .plan-card button {
-  height: 38px;
   padding: 10px 15px;
   border: 1px solid black;
   background-color: #c4581000;
   color: #c14f15;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 
