@@ -140,8 +140,8 @@ a{
 }
 @media only screen and (max-width: 500px) {
   .achat{
-    word-wrap: break-word;
-    font-size: 18px;
+    margin: auto;
+    padding-bottom: 25px;
   }
   .Retour{
   margin-left: 10px;
@@ -159,7 +159,7 @@ a{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .input-container input[type="text"] {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -175,6 +175,7 @@ a{
     text-align: center;
   }
   .choses{
-    font-size: 18px;
+    
+    margin: auto;
   }
 }
