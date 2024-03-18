@@ -568,14 +568,14 @@ timer end here */
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
-  .wrapper_h1 h1{font-weight: 700;font-size: 30px;color: white;line-height: 40px;margin-bottom: 60px;}
+  .wrapper_h1 h1{font-weight: 700;font-size: 25px;color: white;line-height: 30px;margin-bottom: 60px;}
   
   .wrapper_body{
     display: flex;
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 110vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(#f97000, rgb(253, 163, 84), rgb(255, 222, 203));  }
   .wrapper {
     max-width: 1250px;
@@ -643,7 +643,7 @@ timer end here */
     margin-bottom: 50px;
     font-weight: 600;
     margin-top: 60px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .services {
     display: flex;
@@ -693,7 +693,7 @@ timer end here */
     }
 
     .logo{
-        width: 35%;
+        width: 16%;
         margin-left: 10px;
     }
 
@@ -710,7 +710,7 @@ timer end here */
     }
 
     .hamburger-menu {
-        display: grid;
+        display: grid;margin-right: 15px;
     }
 
     .nav-menu {
