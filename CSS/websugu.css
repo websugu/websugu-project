@@ -47,19 +47,19 @@ body{
     color: var(--text-color);
 }
 .logo{
-    width: 15%;
+    width: 5%;
     cursor:pointer;
-    margin-left: 30px;
+    margin-right: 70px;
 }
 
 .nav-menu{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 60px;
 }
 ul li a{
     font-weight: 500;
-    transition: all 0.50s;
+    transition: all 0.50s;padding: 20px;
 }
 a:hover{
     color: #ff4400;
@@ -70,7 +70,7 @@ a:hover{
     text-align: center;
     display: inline;
     text-decoration: none;
-    margin-right: 100px;
+    
   }
   
   .dropdown {
@@ -209,7 +209,7 @@ a:hover{
     transform: rotate(-45deg);
     left: 6px;
 }
-.none1 ,.none2{display: none;}
+.none1 {display: none;}
 
 
 
@@ -224,15 +224,15 @@ header{
 .contenair{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
-}.cont-start{margin-left: 55px;}
+}.cont-start{margin-left: 80px;}
 .make h1{
     font-family: 'Montserrat', sans-serif;
     color:white;
-    font-size: 47px;
+    font-size: 50px;
     padding-bottom: 25px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 .ssl p{
     display: inline;
@@ -292,7 +292,7 @@ timer end here */
     margin-bottom: 50px;
     font-weight: 700;
     margin-top: 60px;
-    font-size: 38px;
+    font-size: 38px;color:#2d2c2c;
 }
 .services {
     display: flex;
@@ -325,6 +325,69 @@ timer end here */
 
 /* <!-- HEADER END HERE --> */
 
+
+/*<!-- ZIK ZAK LAYOUT START -->*/
+.zik_tit h2{font-weight: 700;font-size: 38px;color: #2d2c2c;margin-top: 50px;}
+.zik_tit{margin-bottom: 100px;}
+.container_zik {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+.row{display: flex;align-items: center;justify-content:center}
+/* .column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+} */
+.column-66 p{font-size: 19px; font-weight: 400;color: #393939;}
+.column-66{margin: 50px;text-align: center;}
+/* .column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}*/
+#row{margin-top: 150px;}
+.column-66 h1{font-size: 30px;font-weight: 700;color: #f97000;}
+
+
+.notes_1 h3{padding-top: 15px;}
+.notes_1{margin-top: 15px;}
+.notes_1 span{padding-left: 25px;font-size: 17px;font-weight: 400;}
+.xlarge-font {
+  font-size: 64px
+}
+
+.button_zik {
+  margin: 30px auto;
+  padding: 13px 35px 13px 35px;
+  font-weight: 700;font-size: 20px;
+  background-image: linear-gradient(to bottom right, #f97000,#fb882a, rgb(245, 245, 240));  border: none;
+  border-radius: 5px;cursor: pointer;
+  color: #ffffff;
+}
+
+.column-33 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .button_zik{font-size: 18px;}
+  .column-66,
+  .column-33 {
+    width: 100%;margin: auto;
+    text-align: center;
+  }.row{display: block;margin: auto;}
+  #row{margin-top: 30px;}
+  .zik_tit h2{font-weight: 700;font-size: 33px;color: #2d2c2c;margin-top: 50px;padding-bottom: 10px;}
+.zik_tit{margin-bottom: 60px;}
+}
+/*<!-- ZIK ZAK LAYOUT START -->*/
+
 /*<!--  SOLUTION START HERE -->*/
 
 .container_solution {
@@ -355,16 +418,18 @@ timer end here */
     color: #f97000;
 }
 .solution p {
-    color: #666;
+    color: #393939;
     margin-bottom: 20px;
-    font-weight: 600;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .solution span{
     font-size: 24px;
     color: rgb(45, 42, 42);
 }
 .solution button{
-    padding: 5px 35px;
+    padding: 5px 35px;background: none;border: none;margin-top: 20px;
     font-weight: 600;
 }
 .solution img{
@@ -524,7 +589,7 @@ timer end here */
     opacity: 0.80;
   }
   .footer_containt h2{
-    font-size: 28px;
+    font-size: 28px;padding-left: 18px;
     color: rgb(162, 160, 160);
     font-weight: 500;
   }
@@ -575,7 +640,7 @@ timer end here */
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 110vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 90vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(#f97000, rgb(253, 163, 84), rgb(255, 222, 203));  }
   .wrapper {
     max-width: 1250px;
@@ -600,7 +665,7 @@ timer end here */
 
   .carousel .card {
     scroll-snap-align: start;
-    height: 502px;
+    height: px;
     list-style: none;
     background: #fff;
     cursor: pointer;
@@ -752,7 +817,8 @@ timer end here */
         color: rgb(60, 60, 60);
         display: block;
         text-decoration: none;
-        padding:0;
+        padding:10px;
+        margin-bottom: 20px;
       }
 
       .dropdown {
@@ -839,7 +905,7 @@ header{
   background-image: linear-gradient(to bottom right,#f97000, #e76423 30%, #ff5e00 63%, #fdddd0);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   padding-top: 50px;
 }
 .contenair{
@@ -848,7 +914,7 @@ header{
 }
 .make h1{
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 32px;
 }
 .ssl p{
     font-size: 15px;
@@ -872,7 +938,7 @@ hr{
 .head-get-started button{
   margin-top: 50px;
   padding: 13px 70px 13px 70px;
-  font-weight: 800;font-size: 20px;
+  font-weight: 700;font-size: 20px;
   background-image: linear-gradient(to bottom right, #ffffff,#ffffff, rgb(255, 255, 255));
   border: none;
   border-radius: 5px;
@@ -888,7 +954,7 @@ hr{
 
 .head-img{
     width: 90%;
-    padding-top: 50px;margin-left: 35px;
+    padding-top: 100px;margin-left: 35px;
 }
 /* <!-- HEADER END HERE --> */
 
@@ -916,10 +982,10 @@ hr{
 }
 .footer_form input{
   width: 342px;
-  height: 50px;background-color: #e8e9eb;
+  height: 55px;background-color: #e8e9eb;
   margin-bottom: 12px;
   padding-left: 15px;
-  font-size: 17px;font-weight: 600;border: none;
+  font-size: 16 px;font-weight: 500;border: none;
   border: none;
   border-radius: 5px;
 }
