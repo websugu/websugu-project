@@ -775,7 +775,7 @@ timer end here */
     }
 
     .hamburger-menu {
-        display: grid;margin-right: 30px;
+        display: grid;margin-right: 50px;
     }
 
     .nav-menu {
@@ -1004,7 +1004,7 @@ hr{
 }
 .footer_form button:hover{
   opacity: 0.80;
-}.footer_containt{margin-left: 20px;margin-top: 40px;}
+}.footer_containt{margin-left: 6px;margin-top: 40px;}
 .footer_containt h2{
   font-size: 25px;
   color: rgb(162, 160, 160);
