@@ -640,7 +640,7 @@ timer end here */
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 110vh;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(#f97000, rgb(253, 163, 84), rgb(255, 222, 203));  }
   .wrapper {
     max-width: 1250px;
@@ -775,7 +775,7 @@ timer end here */
     }
 
     .hamburger-menu {
-        display: grid;margin-right: 15px;
+        display: grid;margin-right: 30px;
     }
 
     .nav-menu {
@@ -905,7 +905,7 @@ header{
   background-image: linear-gradient(to bottom right,#f97000, #e76423 30%, #ff5e00 63%, #fdddd0);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 130vh;
   padding-top: 50px;
 }
 .contenair{
@@ -999,16 +999,16 @@ hr{
   transition: all .3s ease;
   width: 342px;
   height: 55px;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 5px;
 }
 .footer_form button:hover{
   opacity: 0.80;
-}.footer_containt{margin-left: 35px;margin-top: 40px;}
+}.footer_containt{margin-left: 20px;margin-top: 40px;}
 .footer_containt h2{
   font-size: 25px;
   color: rgb(162, 160, 160);
-  font-weight: 500;
+  font-weight: 600;
 }
 .footer_containt ul li{
   padding-top: 20px;
