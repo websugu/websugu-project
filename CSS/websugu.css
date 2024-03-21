@@ -775,7 +775,7 @@ timer end here */
     }
 
     .hamburger-menu {
-        display: grid;margin-right: 80px;
+        display: grid;margin-right: 30px;
     }
 
     .nav-menu {
@@ -877,7 +877,7 @@ timer end here */
       .login-btn{
         padding: 6px 18px 6px 18px;
         font-weight: 500;
-        color: white;display: block;margin-left: 60px;
+        color: white;display: block;margin-left: 30px;
         border-radius: 5px;font-size: 16px;
       }
 
