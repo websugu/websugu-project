@@ -385,6 +385,7 @@ timer end here */
   #row{margin-top: 30px;}
   .zik_tit h2{font-weight: 700;font-size: 33px;color: #2d2c2c;margin-top: 50px;padding-bottom: 10px;}
 .zik_tit{margin-bottom: 60px;}
+.column-66 h1{font-size: 20px;font-weight: 700;color: #f97000;}
 }
 /*<!-- ZIK ZAK LAYOUT START -->*/
 
@@ -775,7 +776,7 @@ timer end here */
     }
 
     .hamburger-menu {
-        display: grid;margin-right: 30px;
+        display: grid;margin-right: 20px;
     }
 
     .nav-menu {
@@ -877,7 +878,7 @@ timer end here */
       .login-btn{
         padding: 6px 18px 6px 18px;
         font-weight: 500;
-        color: white;display: block;margin-left: 30px;
+        color: white;display: block;margin-left: 10px;
         border-radius: 5px;font-size: 16px;
       }
 
@@ -1004,7 +1005,7 @@ hr{
 }
 .footer_form button:hover{
   opacity: 0.80;
-}.footer_containt{margin-left: 6px;margin-top: 40px;}
+}.footer_containt{margin-left: 20px;margin-top: 40px;}
 .footer_containt h2{
   font-size: 25px;
   color: rgb(162, 160, 160);
