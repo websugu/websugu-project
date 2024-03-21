@@ -818,7 +818,7 @@ padding: 0 20px;
       color: rgb(60, 60, 60);
       display: block;
       text-decoration: none;
-      padding:10px;
+      padding:5px;
       margin-bottom: 20px;
     }
 
@@ -982,7 +982,7 @@ font-weight: 700;
 margin-bottom: 20px;
 }
 .footer_form input{
-width: 342px;font-weight: 500;
+width: 342px;
 height: 55px;background-color: #e8e9eb;
 margin-bottom: 12px;
 padding-left: 15px;
@@ -996,7 +996,7 @@ background-image: linear-gradient(to bottom right, #f97000,#fb882a, rgb(245, 245
 color: white;
 border: none;
 cursor: pointer;
-font-weight: 500;
+font-weight: 600;
 transition: all .3s ease;
 width: 342px;
 height: 55px;
@@ -1005,7 +1005,7 @@ border-radius: 5px;
 }
 .footer_form button:hover{
 opacity: 0.80;
-}.footer_containt{margin-left: 9px;margin-top: 40px;}
+}.footer_containt{margin-left: 4px;margin-top: 40px;}
 .footer_containt h2{
 font-size: 25px;
 color: rgb(162, 160, 160);
