@@ -721,7 +721,7 @@ padding: 0 20px;
 .service {
   width: 950px;
   margin: 10px;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 18px 20px 18px;
   background-color: #fff;
   border-radius: 25px;
   border: 1px solid  rgba(0,0,0,.1);
@@ -739,7 +739,7 @@ padding: 0 20px;
 }
 .service p {
   color: #000000;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 500;line-height: 30px;
 }
 /* SERVICES END HERE */
