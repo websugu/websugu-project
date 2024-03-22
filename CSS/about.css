@@ -142,6 +142,17 @@
       padding: 16px 10px;
       box-shadow: 14px 14px 100px rgba(0, 0, 0, .09);
       text-align: center;margin: 8px;
+  }.dev h2{
+    letter-spacing: -.01em;
+      margin-top: 0;font-weight: 700;
+      margin-bottom: 17px;
+      font-size: 28px;
+  }.dev P{
+    text-align: center;color: rgb(42, 42, 42);
+      letter-spacing: -.01em;
+      margin-bottom: 15px;
+      font-size: 17px;font-weight: 500;
+      line-height: 156%;
   }
 
   /* buid start here */
