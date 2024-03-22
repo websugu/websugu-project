@@ -134,14 +134,14 @@
    margin-top: 40px; 
   }
   .dev {
-    width: 100%;
+    width: 120%;
       height: 100%;
-      max-width: 570px;
+      max-width: 590px;
       background-color: #fffefe;
       border-radius: 12px;
       padding: 16px 10px;
       box-shadow: 14px 14px 100px rgba(0, 0, 0, .09);
-      text-align: center;margin: 20px;
+      text-align: center;margin: 8px;
   }
 
   /* buid start here */
