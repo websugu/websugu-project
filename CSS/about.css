@@ -124,7 +124,7 @@
   /*  */
 
   .dev-bg-img{
-      top: 43%;
+      top: 48%;
   }.dev img{width: 45%;}
   .dev h2{
       font-size: 28px;padding-top: 18px;
@@ -150,6 +150,6 @@
   }.Build-content p{font-size: 14px;font-weight: 400;color: rgb(241, 237, 237);padding-bottom: 0px;padding-left: 20px}
   #book{margin-left: 20px;margin-bottom: 30px;}
 
-  .footer_form{display: none;}
+  #input,#btn{display: none;}
 }
 
