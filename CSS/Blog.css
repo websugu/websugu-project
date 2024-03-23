@@ -86,7 +86,7 @@ element.style {transform: translate3d(0px, -7.3274px, 0px) scale3d(1, 1, 1) rota
 }
 /* WHY */
 .about-why-choose-section {
-  background-image: radial-gradient(circle at 0 0, #e73d23, #e73d23 30%, #ef8408 63%, #fff);
+  background-image: radial-gradient(circle at 0 0, #f97000, #ea4228 30%, #ef8408 63%, #fff);
 }
 .wrapper-1240px.about-why-choose-flex {
   grid-column-gap: 60px;
@@ -367,7 +367,7 @@ element.style {transform: translate3d(0px, -7.3274px, 0px) scale3d(1, 1, 1) rota
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 125%;
 }
 
