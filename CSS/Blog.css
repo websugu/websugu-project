@@ -275,7 +275,7 @@ element.style {transform: translate3d(0px, -7.3274px, 0px) scale3d(1, 1, 1) rota
     max-width: 575px;
   }
   .h2-heading-40px-orange {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 800;
   }
   
@@ -295,7 +295,7 @@ element.style {transform: translate3d(0px, -7.3274px, 0px) scale3d(1, 1, 1) rota
     display: flex;
   }
   .about-feature-pointer-icon {
-    width: 70px;
+    width: 60px;
     height: 50px;
     max-width: 100%;
       vertical-align: middle;
@@ -303,7 +303,7 @@ element.style {transform: translate3d(0px, -7.3274px, 0px) scale3d(1, 1, 1) rota
   }
   
   .about-feature-pointer-text {
-    font-size: 15px;font-weight: 400;color: rgb(27, 27, 27);
+    font-size: 14px;font-weight: 400;color: rgb(27, 27, 27);
     line-height: 144%;
   }
   
