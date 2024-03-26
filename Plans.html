@@ -16,13 +16,8 @@ html {
 body {
   background: #f7f7ff;
   font-family: "Montserrat", sans-serif;
-  width: 80%;
-  max-width: 1440px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
+  
 }
 header {
   color: hsl(233, 13%, 49%);
@@ -91,7 +86,6 @@ header {
     rgb(255, 115, 45) 100%
   );
   color: #fff;
-  display: flex;
   align-items: center;
   transform: scale(1.1);
   z-index: 1;
@@ -191,83 +185,147 @@ ul li.price {
 .popup button{width: 430px;height: 50px;border-radius: 5px;font-size: 18px;font-weight: 600;background-color: coral;border: none;color: white;cursor: pointer;margin-bottom: 20px;margin-top: 10px;}
 .inp{width: 430px;height: 55px;border-radius: 5px;font-size: 18px; border: none;background-color: #f3f1f1;padding-left: 15px;font-weight: 500;outline: none;}
 input{margin: 10px;}
-@media screen and (max-width: 280px) {
-  ul {
-    margin: 1rem;
-  }
-  h1 {
-    font-size: 1.2rem;
-  }
-  .toggle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-  }
-  .cards {
-    margin: 0;
-    display: block;
-    flex-direction: none;
-  }
 
-  .card {
-    transform: scale(0.8);
-    margin-bottom: 1rem;
-  }
-  .cards .card.active {
-    transform: scale(0.8);
-  }
-}
 
-@media screen and (min-width: 280px) and (max-width: 320px) {
-  ul {
-    margin: 20px;
-  }
+
+
+
+
+
+@media screen and (max-width: 1046px) {
   .cards {
     display: block;
-    flex-direction: column;
+    max-width: 85%;margin: auto;
   }
-  .card {
-    margin-bottom: 1rem;
-  }
-  .cards .card.active {
-    transform: scale(1);
-  }
+  
+
+
+  /*  */
+  header {
+  color: hsl(233, 13%, 49%);
+  margin: 6.3rem 0;font-size: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toggle {
+  margin-top: 4rem;font-size: 45px;
+  color: hsl(234, 14%, 74%);
+  display: flex;
+  align-items: center;
+}
+.toggle-btn {
+  margin: 0 2rem;
+}
+.checkbox {
+  display: none;
 }
 
-@media (min-width: 320px) and (max-width: 414px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-  }
-  .card {
-    margin-bottom: 1rem;
-  }
-  .cards .card.active {
-    transform: scale(1);
-  }
+.sub {
+  background: linear-gradient(
+    135deg,
+    rgb(240, 204, 163) 0%,
+    rgb(243, 85, 45) 100%
+  );
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 25px;
+  width: 50px; */
+  height: 3.6rem;
+  width: 5.3rem;
+  border-radius: 1.6rem;
+  padding: 0.3rem;
 }
-@media (min-width: 414px) and (max-width: 768px) {
-  .card {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-  }
-  .cards .card.active {
-    transform: scale(1);
-  }
+.circle {
+  background-color: #fff;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
 }
-@media (min-width: 768px) and (max-width: 1046px) {
-  .cards {
-    display: flex;
-  }
-  .card {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-  }
-  .cards .card.active {
-    transform: scale(1);
-  }
+.checkbox:checked + .sub {
+  justify-content: flex-end;
+}
+
+
+h1{font-size: 75px;}
+.card {
+  background: #fff;
+  color: hsl(233, 13%, 49%);
+  border-radius: 2.8rem;
+}
+
+.cards .card.active {
+  background: linear-gradient(
+    135deg,
+    rgb(249, 193, 166) 0%,
+    rgb(250, 98, 22) 100%
+  );
+  color: #fff;
+  align-items: center;
+  transform: none;
+  z-index: 1;
+}
+ul {
+  margin: 3.6rem;font-size:28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem 0;
+}
+ul li.price {
+  font-size: 5rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+}
+.shadow {
+  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.active .price {
+  color: #ffffff;
+}
+
+.btn {
+  margin-top: 1rem;
+  height: 8.6rem;
+  width: 70.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(
+    135deg,
+    rgb(240, 182, 163) 0%,
+    rgb(239, 110, 51) 100%
+  );cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: 0;font-size: 45px;
+  font-weight: bold;
+}
+.active-btn {
+  background: #fff;
+  color: hsl(18, 90%, 55%);
+}
+.bottom-bar {
+  border-bottom: 2px solid hsla(240, 2%, 79%, 0.582);
+  font-size: 50px;font-weight: 300;
+}
+.card.active .bottom-bar {
+  border-bottom: 2px solid hsla(240, 3%, 82%, 0.253);
+}
+.pack {
+  font-size: 3.1rem;
+}
 }
 
 </style>
