@@ -363,15 +363,15 @@ form{}
   }
   
   .bar:before {
-  left: 120%;
+  left: 100%;
   }
   
   .bar:after {
-  right: -30%;
+  right: -25%;
   }
   
   .input1:focus ~ .bar:before, .input1:focus ~ .bar:after {
-  width: 120%;
+  width:120%;
   }
   
   .highlight {
