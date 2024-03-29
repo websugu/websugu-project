@@ -1,0 +1,401 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  max-width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.categories button.active {
+  background-color: #0056b3;
+}
+
+
+/*  */
+.group {
+position: relative;
+margin-bottom: 50px;
+}
+
+.input1 {
+font-size: 16px;
+padding: 10px 10px 10px 5px;
+display: block;
+width: 200px;
+border: none;
+border-bottom: 1px solid #515151;
+background: transparent;margin-left: 70px;
+}
+
+.input1:focus {
+outline: none;
+}
+
+.label {
+color: #999;
+font-size: 18px;
+font-weight: normal;
+position: absolute;
+pointer-events: none;
+left: 5px;
+top: 10px;
+transition: 0.2s ease all;
+-moz-transition: 0.2s ease all;
+-webkit-transition: 0.2s ease all;
+}
+
+.input:focus ~ label, .input:valid ~ label {
+top: -20px;
+font-size: 14px;
+color: #5264AE;
+}
+
+.bar {
+position: relative;
+display: block;
+width: 200px;
+}
+
+.bar:before, .bar:after {
+content: '';
+height: 2px;
+width: 0;
+bottom: 0px;
+position: absolute;
+background: #f35d2b;
+transition: 0.2s ease all;
+-moz-transition: 0.2s ease all;
+-webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+left: 130%;
+}
+
+.bar:after {
+right: -55%;
+}
+
+.input1:focus ~ .bar:before, .input1:focus ~ .bar:after {
+width: 120%;
+}
+
+.highlight {
+position: absolute;
+height: 60%;
+width: 100px;
+top: 25%;
+left: 0;
+pointer-events: none;
+opacity: 0.5;
+}
+
+.input1:focus ~ .highlight {
+animation: inputHighlighter 0.3s ease;
+}
+
+@keyframes inputHighlighter {
+from {
+background: #5264AE;
+}
+
+to {
+width: 0;
+background: transparent;
+}
+}
+/*  */
+.templates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.template {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;text-align:  left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 28%;
+}
+.demo-btn,i{color: #f97000 ;transition: all 0.50s;background: transparent;padding: 10px 0px;padding-top: 17px;}
+.demo-btn:hover{opacity:0.60;}
+.template img {
+  width: 100%;
+  height: 37vh;
+}
+.buy-btn{
+  padding-top: 17px;float: right;cursor: pointer;background: #f97000;padding: 10px 10px;border-radius: 20px;color: white;font-weight: 600;
+}
+.buy-btn:hover{color: white;}
+.description {
+  padding: 20px;line-height: 10px;
+}
+
+.price {
+  font-weight: bold;padding-top: 20px;
+}
+
+.popup-content h2{padding-bottom: 30px;}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;z-index: 200;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  position: relative;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plus{position: absolute;top: 56%;z-index: 100;left: 10%;font-weight: 600;font-size: 25px;color: rgb(242, 116, 71);}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 9px 15px;border-radius: 50px;
+  transition:all 0.5s;
+}
+.close:hover{background: #dddddd;padding: 9px 15px;border-radius: 50px;
+}
+
+
+form{}
+.input{width: 100%;font-size: 17px;border-radius: 8px;
+  border-width: 2px;
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color:#eee9e9;outline: 1px solid rgba(255, 190, 162, 0.785)
+  ;height: 50px;padding-left: 15px;margin-top: 20px;width:90%;}
+.container input{width: 30%;height:  40px;}
+.selected_template{background-color: #ffc5b65b;border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);width: auto
+  ;margin-bottom: 10px;padding-top: 10px;padding-left: 15px;padding-bottom: 10px;}
+.selected_template input{border: none;background: none;outline: none;font-size: 20px;width:100%;}
+.input{}
+.popup-content button{margin-top: 30px;width:94%;height: 47px;background-color: #ff5100d0;font-size: 18px;font-weight: 600;color: white;border-radius: 50px;border: none;cursor: pointer;margin-bottom: 20px;}
+
+
+/*  */
+@media screen and (max-width:900px) {
+  /*  */
+.templates {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.template {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;text-align:  left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+}
+.demo-btn,i{color: #f97000 ;transition: all 0.50s;background: transparent;padding: 10px 0px;padding-top: 17px;}
+.demo-btn:hover{opacity:0.60;}
+.template img {
+  width: 100%;
+  height: 27vh;
+}
+.buy-btn{
+  padding-top: 17px;float: right;cursor: pointer;background: #f97000;padding: 10px 10px;border-radius: 20px;color: white;font-weight: 600;
+}
+.buy-btn:hover{color: white;}
+.description {
+  padding: 20px;line-height: 10px;
+}
+
+.price {
+  font-weight: bold;padding-top: 20px;
+}
+
+.popup-content h2{padding-bottom: 30px;}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;z-index: 200;
+}
+
+.plus{position: absolute;top: 54.70%;z-index: 100;left: 11%;font-weight: 600;font-size: 20px;color: rgb(242, 116, 71);}
+
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 370px;
+  text-align: center;
+  position: relative;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 9px 15px;border-radius: 50px;
+  transition:all 0.5s;
+}
+.close:hover{background: #dddddd;padding: 9px 15px;border-radius: 50px;
+}
+
+
+form{}
+.input{width: 100%;font-size: 17px;border-radius: 8px;
+  border-width: 2px;
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color:#eee9e9;outline: 1px solid rgba(255, 190, 162, 0.785)
+  ;height: 50px;padding-left: 15px;margin-top: 20px;width:90%;}
+.container input{width: 30%;height:  40px;}
+.selected_template{background-color: #ffc5b65b;border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);width: auto
+  ;margin-bottom: 10px;padding-top: 10px;padding-left: 15px;padding-bottom: 10px;}
+.selected_template input{border: none;background: none;outline: none;font-size: 20px;width:100%;}
+.input{}
+.popup-content button{margin-top: 30px;width:94%;height: 47px;background-color: #ff5100d0;font-size: 18px;font-weight: 600;color: white;border-radius: 50px;border: none;cursor: pointer;margin-bottom: 20px;}
+
+
+
+
+
+/*  */
+.group {
+  position: relative;
+  margin-bottom: 50px;margin-top: 70px;
+  }
+  
+  .input1 {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;margin-left: 22px;
+  }
+  
+  .input1:focus {
+  outline: none;
+  }
+  
+  .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  }
+  
+  .input:focus ~ label, .input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264AE;
+  }
+  
+  .bar {
+  position: relative;
+  display: block;
+  width: 150px;
+  }
+  
+  .bar:before, .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: #f35d2b;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  }
+  
+  .bar:before {
+  left: 120%;
+  }
+  
+  .bar:after {
+  right: -30%;
+  }
+  
+  .input1:focus ~ .bar:before, .input1:focus ~ .bar:after {
+  width: 120%;
+  }
+  
+  .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  }
+  
+  .input1:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+  }
+  
+  @keyframes inputHighlighter {
+  from {
+  background: #5264AE;
+  }
+  
+  to {
+  width: 0;
+  background: transparent;
+  }
+  }
+}
