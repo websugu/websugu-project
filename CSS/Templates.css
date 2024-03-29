@@ -220,7 +220,7 @@ form{}
 .templates {
   display: block;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;margin: auto;
 }
 
 .template {
@@ -238,7 +238,7 @@ form{}
   height: 27vh;
 }
 .buy-btn{
-  padding-top: 17px;float: right;cursor: pointer;background: #f97000;padding: 10px 10px;border-radius: 20px;color: white;font-weight: 600;
+  padding-top: 17px;float: right;cursor: pointer;background: #f97000;padding: 10px 10px;border-radius: 20px;color: white;font-weight: 500;
 }
 .buy-btn:hover{color: white;}
 .description {
@@ -367,11 +367,11 @@ form{}
   }
   
   .bar:after {
-  right: -25%;
+  right: -15%;
   }
   
   .input1:focus ~ .bar:before, .input1:focus ~ .bar:after {
-  width:120%;
+  width:100%;
   }
   
   .highlight {
