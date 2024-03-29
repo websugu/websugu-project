@@ -259,10 +259,10 @@ form{}
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   justify-content: center;
-  align-items: center;z-index: 200;
+  align-items: center;z-index: 100;
 }
 
-.plus{position: absolute;top: 54.70%;z-index: 100;left: 11%;font-weight: 600;font-size: 20px;color: rgb(242, 116, 71);}
+.plus{position: absolute;top: 54.70%;z-index: 200;left: 11%;font-weight: 600;font-size: 20px;color: rgb(242, 116, 71);}
 
 
 .popup-content {
